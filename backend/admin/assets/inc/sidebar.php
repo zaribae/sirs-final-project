@@ -145,9 +145,9 @@
                             <a href="his_admin_pharm_inventory.php">Pharmaceuticals</a>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <a href="his_admin_equipments_inventory.php">Assets</a>
-                        </li>
+                        </li> -->
 
                     </ul>
                 </li>

@@ -147,48 +147,12 @@ $doc_number = $_SESSION['doc_number'];
 
                         <!--Start Vendors-->
 
-                        <div class="col-md-6 col-xl-6">
-                            <a href="his_doc_account.php">
-                                <div class="widget-rounded-circle card-box">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="avatar-lg rounded-circle bg-soft-danger border-danger border">
-                                                <i class="fas fa-user-tag font-22 avatar-title text-danger"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="text-right">
-                                                <h3 class="text-dark mt-1"></span></h3>
-                                                <p class="text-muted mb-1 text-truncate">My Profile</p>
-                                            </div>
-                                        </div>
-                                    </div> <!-- end row-->
-                                </div>
-                            </a> <!-- end widget-rounded-circle-->
-                        </div>
+
                         <!-- end col-->
                         <!--End Vendors-->
 
                         <!--Start Corporation Assets-->
-                        <div class="col-md-6 col-xl-6">
-                            <a href="his_doc_view_payrolls.php">
-                                <div class="widget-rounded-circle card-box">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="avatar-lg rounded-circle bg-soft-danger border-danger border">
-                                                <i class="mdi mdi-flask font-22 avatar-title text-danger"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="text-right">
-                                                <h3 class="text-dark mt-1"></span></h3>
-                                                <p class="text-muted mb-1 text-truncate">My Payroll</p>
-                                            </div>
-                                        </div>
-                                    </div> <!-- end row-->
-                                </div>
-                            </a> <!-- end widget-rounded-circle-->
-                        </div> <!-- end col-->
+                        <!--  end col -->
                         <!--End Corporation Assets-->
                     </div>
 

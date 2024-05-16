@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required Meta Tags -->
     <meta charset="UTF-8">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/linearicons.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- Preloader Starts -->
     <div class="preloader">
@@ -29,16 +31,16 @@
         <div id="header" id="home">
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
-                <div id="logo">
-                    <a href="index.php"></a>
-                </div>
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
-                        <li class="menu-active"><a href="index.php">Home</a></li>
-                        <li><a href="backend/doc/index.php">Doctor's Login</a></li>
-                        <li><a href="backend/admin/index.php">Administrator Login</a></li>
-                    </ul>
-                </nav><!-- #nav-menu-container -->		    		
+                    <div id="logo">
+                        <a href="index.php"></a>
+                    </div>
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                            <li class="menu-active"><a href="index.php">Home</a></li>
+                            <li><a href="backend/doc/index.php">Doctor's Login</a></li>
+                            <li><a href="backend/admin/index.php">Administrator Login</a></li>
+                        </ul>
+                    </nav><!-- #nav-menu-container -->
                 </div>
             </div>
         </div>
@@ -49,9 +51,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
+                    <img class="mb-30" src="backend/admin/assets/images/hospital-logo.png" alt="" height="150">
                     <h4>Caring for better life</h4>
-                    <h1>Leading the way in medical excellence</h1>
-                    <p>HMS is awarded as one of the Top Hospital Management System, which can integrate all the HIS systems, processes and machines into an intelligent information system to derive operational efficiency and assist hospitals in decision making process through MIS and Analytics.</p>
+                    <h2>Leading the way in medical excellence</h2>
+                    <p>Ziara Hospitas Management System is awarded as one of the Top Hospital Management System, which
+                        can integrate all the Ziara
+                        systems, processes and machines into an intelligent information system to derive operational
+                        efficiency and assist hospitals in decision making process through MIS and Analytics.</p>
                 </div>
             </div>
         </div>
@@ -66,4 +72,5 @@
     <script src="assets/js/vendor/superfish.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

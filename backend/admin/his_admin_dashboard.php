@@ -48,32 +48,7 @@ $aid = $_SESSION['ad_id'];
 
                     <div class="row">
                         <!--Start OutPatients-->
-                        <div class="col-md-6 col-xl-4">
-                            <div class="widget-rounded-circle card-box">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="avatar-lg rounded-circle bg-soft-primary border-primary border">
-                                            <i class="fab fa-accessible-icon  font-22 avatar-title text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="text-right">
-                                            <?php
-                                            //code for summing up number of out patients 
-                                            $result = "SELECT count(*) FROM his_patients WHERE pat_discharge_status != null ";
-                                            $stmt = $mysqli->prepare($result);
-                                            $stmt->execute();
-                                            $stmt->bind_result($outpatient);
-                                            $stmt->fetch();
-                                            $stmt->close();
-                                            ?>
-                                            <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $outpatient; ?></span></h3>
-                                            <p class="text-muted mb-1 text-truncate">Out Patients</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end row-->
-                            </div> <!-- end widget-rounded-circle-->
-                        </div> <!-- end col-->
+
                         <!--End Out Patients-->
 
 
@@ -135,6 +110,36 @@ $aid = $_SESSION['ad_id'];
                         </div> <!-- end col-->
                         <!--End Employees-->
 
+                        <!--Start Pharmaceuticals-->
+                        <div class="col-md-6 col-xl-4">
+                            <div class="widget-rounded-circle card-box">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="avatar-lg rounded-circle bg-soft-primary border-primary border">
+                                            <i class="mdi mdi-pill font-22 avatar-title text-primary"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="text-right">
+                                            <?php
+                                            /* 
+                                                     * code for summing up number of pharmaceuticals,
+                                                     */
+                                            $result = "SELECT count(*) FROM his_pharmaceuticals ";
+                                            $stmt = $mysqli->prepare($result);
+                                            $stmt->execute();
+                                            $stmt->bind_result($phar);
+                                            $stmt->fetch();
+                                            $stmt->close();
+                                            ?>
+                                            <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $phar; ?></span></h3>
+                                            <p class="text-muted mb-1 text-truncate">Pharmaceuticals</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end row-->
+                            </div> <!-- end widget-rounded-circle-->
+                        </div> <!-- end col-->
+                        <!--End Pharmaceuticals-->
                     </div>
 
                     <div class="row">
@@ -201,36 +206,7 @@ $aid = $_SESSION['ad_id'];
                         </div>  -->
                         <!--End Corporation Assets-->
 
-                        <!--Start Pharmaceuticals-->
-                        <div class="col-md-6 col-xl-4">
-                            <div class="widget-rounded-circle card-box">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="avatar-lg rounded-circle bg-soft-primary border-primary border">
-                                            <i class="mdi mdi-pill font-22 avatar-title text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="text-right">
-                                            <?php
-                                            /* 
-                                                     * code for summing up number of pharmaceuticals,
-                                                     */
-                                            $result = "SELECT count(*) FROM his_pharmaceuticals ";
-                                            $stmt = $mysqli->prepare($result);
-                                            $stmt->execute();
-                                            $stmt->bind_result($phar);
-                                            $stmt->fetch();
-                                            $stmt->close();
-                                            ?>
-                                            <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $phar; ?></span></h3>
-                                            <p class="text-muted mb-1 text-truncate">Pharmaceuticals</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end row-->
-                            </div> <!-- end widget-rounded-circle-->
-                        </div> <!-- end col-->
-                        <!--End Pharmaceuticals-->
+
 
                     </div>
 

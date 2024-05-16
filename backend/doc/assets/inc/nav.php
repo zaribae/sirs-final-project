@@ -72,7 +72,7 @@ while ($row = $res->fetch_object()) {
         <div class="logo-box">
             <a href="his_doc_dashboard.php" class="logo text-center">
                 <span class="logo-lg">
-                    <img src="assets/images/hospital-logo.png" alt="" height="50">
+                    <img src="assets/images/hospital-logo-wh.png" alt="" height="50">
                     <!-- <span class="logo-lg-text-light">UBold</span> -->
                 </span>
                 <span class="logo-sm">
@@ -106,10 +106,10 @@ while ($row = $res->fetch_object()) {
 
 
                     <!-- item-->
-                    <a href="his_doc_lab_report.php" class="dropdown-item">
+                    <!-- <a href="his_doc_lab_report.php" class="dropdown-item">
                         <i class="fe-hard-drive mr-1"></i>
                         <span>Laboratory Report</span>
-                    </a>
+                    </a> -->
 
 
                     <div class="dropdown-divider"></div>

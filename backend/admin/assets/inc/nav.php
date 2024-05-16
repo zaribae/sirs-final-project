@@ -66,7 +66,7 @@ while ($row = $res->fetch_object()) {
         <div class="logo-box">
             <a href="his_admin_dashboard.php" class="logo text-center">
                 <span class="logo-lg">
-                    <img src="assets/images/hospital-logo.png" alt="" height="50">
+                    <img src="assets/images/hospital-logo-wh.png" alt="" height="50">
                     <!-- <span class="logo-lg-text-light">UBold</span> -->
                 </span>
                 <span class="logo-sm">
@@ -102,10 +102,10 @@ while ($row = $res->fetch_object()) {
                     </a>
 
                     <!-- item-->
-                    <a href="his_admin_add_payroll.php" class="dropdown-item">
+                    <!-- <a href="his_admin_add_payroll.php" class="dropdown-item">
                         <i class="fe-layers mr-1"></i>
                         <span>Payroll</span>
-                    </a>
+                    </a> -->
 
                     <!-- item-->
                     <a href="his_admin_add_vendor.php" class="dropdown-item">
@@ -115,22 +115,22 @@ while ($row = $res->fetch_object()) {
 
 
                     <!-- item-->
-                    <a href="his_admin_add_medical_record.php" class="dropdown-item">
+                    <!-- <a href="his_admin_add_medical_record.php" class="dropdown-item">
                         <i class="fe-list mr-1"></i>
                         <span>Medical Report</span>
-                    </a>
+                    </a> -->
 
                     <!-- item-->
-                    <a href="his_admin_lab_report.php" class="dropdown-item">
+                    <!-- <a href="his_admin_lab_report.php" class="dropdown-item">
                         <i class="fe-hard-drive mr-1"></i>
                         <span>Laboratory Report</span>
-                    </a>
+                    </a> -->
 
                     <!-- item-->
-                    <a href="his_admin_surgery_records.php" class="dropdown-item">
+                    <!-- <a href="his_admin_surgery_records.php" class="dropdown-item">
                         <i class="fe-anchor mr-1"></i>
                         <span>Surgical/Theatre Report</span>
-                    </a>
+                    </a> -->
 
 
                     <div class="dropdown-divider"></div>
